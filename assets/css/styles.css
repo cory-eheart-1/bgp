@@ -1,5 +1,6 @@
 html {
   font-family:"Metal Mania";
+  background-color: black;
 }
 
 
@@ -25,6 +26,7 @@ a:active {
 
 i {
   font-weight:bold;
+  color: white;
 }
 
 li {
@@ -37,7 +39,7 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  background-color: #A90900;
+  background-color: #CA0900;
 }
 
 nav > ul {
@@ -49,6 +51,7 @@ nav > ul {
 body {
   padding-top: 75px;
   padding-bottom: 100px;
+  color: white;
 }
 
 #title {
@@ -125,7 +128,7 @@ h1 {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #A90900;
+  background-color: #CA0900;
 }
 
 #footer > h6 {
