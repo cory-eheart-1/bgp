@@ -84,7 +84,9 @@ nav > ul {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:auto;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 
 #footer > h6 {
