@@ -29,11 +29,13 @@ li {
 nav > ul {
   display:flex;
   flex-direction:row;
-  justify-content:center;
+  justify-content:space-evenly;
 }
 
-nav > li {
-  padding: 10px;
+#title {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #thumbnail {
@@ -45,7 +47,7 @@ nav > li {
 #content {
   display:flex;
   flex-direction:column;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align:center;
 }
 
@@ -54,24 +56,30 @@ nav > li {
   flex-direction:row;
   flex:1;
   justify-content:center;
+  margin-right:40px;
 }
 
 #rowlist > li {
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:start;
   width:500px;
   padding: 0px 10px;
 }
 
-#concert {
-  letter-spacing: 2px;
+#album {
+  margin: 13px 0px 0px 0px;
+}
+
+#concert > p{
+  font-size:35px;
 }
 
 #footer {
   display:flex;
-  justify-content:space-between;
+  flex-direction: row;
+  justify-content: space-between;
   margin:auto;
 }
 
