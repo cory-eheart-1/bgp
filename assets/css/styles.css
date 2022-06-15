@@ -65,6 +65,10 @@ h1 {
   margin-bottom: -10px;
 }
 
+img {
+  border: 2px solid #CA0900;
+}
+
 #thumbnail {
   width: 350px;
   height: 350px;
@@ -81,7 +85,7 @@ h1 {
 }
 
 #member {
-  padding-top: 20px;
+  margin-top: 20px;
   width: 500px;
   height: 500px;
 }
