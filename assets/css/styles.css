@@ -85,7 +85,6 @@ nav > ul {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  height: 180px;
   clear: both;
 }
 
