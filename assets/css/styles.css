@@ -120,7 +120,7 @@ iframe {
 }
 
 #rowlist > ul {
-  margin-left: -50%;
+  padding-right: 20%;
 }
 
 #rowlist > li {
