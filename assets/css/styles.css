@@ -159,6 +159,14 @@ iframe {
     font-size: 10px;
     text-align: center;
   }
+
+  nav > ul {
+    margin-left: -2%;
+  }
+
+  nav > ul > li {
+    margin: 0px 1%;
+  }
   
   body {
     margin-right: 7.5%;
@@ -204,7 +212,7 @@ iframe {
   }
   
   #footer > h6 {
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 8px;
   }
 }
