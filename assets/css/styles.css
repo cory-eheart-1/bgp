@@ -193,6 +193,8 @@ iframe {
   }
   
   #footer {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     font-size: 10px;
     bottom: 0;
