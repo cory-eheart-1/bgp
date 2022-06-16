@@ -177,9 +177,6 @@ iframe {
   }
   
   #footer {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     position: fixed;
     bottom: 0;
     left: 0;
