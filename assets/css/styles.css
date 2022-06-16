@@ -155,12 +155,24 @@ iframe {
 }
 
 @media screen and (max-width: 500px) {
+  #content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align:center;
+  }
+
   #rowlist {
     display:flex;
     flex-direction:column;
     flex:1;
     justify-content:center;
     align-items: center;
+  }
+
+  #rowlist > li {
+    margin: 1.33% 0px;
   }
   
   #footer {
