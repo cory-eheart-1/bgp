@@ -161,7 +161,8 @@ iframe {
   }
 
   nav > ul {
-    margin-left: -4%;
+    margin-left: -5%;
+    margin-right: 2%;
   }
 
   nav > ul > li {
