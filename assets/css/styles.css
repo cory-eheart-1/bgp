@@ -85,14 +85,14 @@ iframe {
 }
 
 #thumbnail {
-  width: 75%;
   height: 75%;
+  width: auto;
   margin:10px 0px;
 }
 
 #band {
-  width: 100%;
-  height: 100%;
+  height: 80%;
+  width: auto;
 }
 
 #photolabel {
@@ -101,8 +101,8 @@ iframe {
 
 #member {
   margin-top: 20px;
-  width: 75%;
   height: 75%;
+  width: auto;
 }
 
 #content {
