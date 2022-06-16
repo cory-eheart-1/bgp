@@ -168,6 +168,10 @@ iframe {
     margin-top: 7.5%;
     text-align: center;
   }
+
+  #subtitle {
+    margin-right: -3%;
+  }
   
   #rowlist {
     display:flex;
