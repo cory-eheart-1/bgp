@@ -121,6 +121,7 @@ iframe {
 
 #rowlist > ul {
   padding-right: 20%;
+  width: 90%;
 }
 
 #rowlist > li {
