@@ -155,11 +155,6 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    font-size: 10px;
-    text-align: center;
-  }
-  
   body {
     margin-right: 7.5%;
   }
