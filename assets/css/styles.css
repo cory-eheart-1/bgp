@@ -117,7 +117,10 @@ iframe {
   flex-direction:row;
   flex:1;
   justify-content:center;
-  margin-right: 10%;
+}
+
+#rowlist > ul {
+  margin-right: 20%;
   margin-left: -10%;
 }
 
