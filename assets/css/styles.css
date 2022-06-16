@@ -157,7 +157,7 @@ iframe {
 @media screen and (max-width: 500px) {
   #rowlist {
     display:flex;
-    flex-direction:content;
+    flex-direction:column;
     flex:1;
     justify-content:center;
     align-items: center;
