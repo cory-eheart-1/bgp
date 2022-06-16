@@ -24,6 +24,11 @@ nav > ul > li > a:hover {
   font-size: 130%;
 }
 
+nav > ul > li > a.active {
+  background-color: black;
+  color: #CA0900;
+}
+
 a:active {
   text-decoration:underline;
 }
@@ -147,4 +152,31 @@ iframe {
 #footer > h6 {
   padding:0px 1.33%;
   font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  #rowlist {
+    display:flex;
+    flex-direction:content;
+    flex:1;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  #footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #CA0900;
+  }
+  
+  #footer > h6 {
+    padding:0px 1.33%;
+    font-size: 12px;
+  }
 }
