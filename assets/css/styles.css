@@ -85,6 +85,10 @@ iframe {
   border: 2px solid #CA0900;
 }
 
+#form {
+  margin-top: 5%;
+}
+
 #thumbnail {
   height: 350px;
   width: 350px;
@@ -157,6 +161,10 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    background-size: 100% auto;
+  }
+
   nav {
     font-size: 10px;
     text-align: center;
