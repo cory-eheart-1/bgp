@@ -3,7 +3,7 @@ html {
   background-color: black;
   background-image: url("https://cory-eheart.github.io/hosted-assets/flames_background.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
 }
 
 a {
@@ -163,10 +163,6 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
-  html {
-    
-  }
-
   nav {
     font-size: 10px;
     text-align: center;
