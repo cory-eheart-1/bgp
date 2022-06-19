@@ -61,6 +61,8 @@ body {
   padding-top: 5%;
   padding-bottom: 6.65%;
   color: #eeeeee;
+  background-image: ulr("https://cory-eheart.github.io/hosted-assets/flames_background.jpg");
+  opacity: 70%;
 }
 
 #title {
