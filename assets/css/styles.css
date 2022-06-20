@@ -3,10 +3,7 @@ html {
   background-color: black;
   background-image: url("https://cory-eheart.github.io/hosted-assets/flames_background.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center bottom;
-  border-radius:0px;
-  border:0px;
+  background-size: cover;
 }
 
 a {
