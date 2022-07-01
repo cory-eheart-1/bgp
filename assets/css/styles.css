@@ -162,7 +162,7 @@ iframe {
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1198px) {
   nav {
     font-size: 10px;
     text-align: center;
