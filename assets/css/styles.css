@@ -240,6 +240,11 @@ iframe {
     font-size: 10px;
   }
 
+  #band {
+    width: 95%;
+    height: auto;
+  }
+
   #footer > h6 {
     font-size: 8px;
   }
