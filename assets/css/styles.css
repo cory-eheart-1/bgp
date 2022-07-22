@@ -124,7 +124,6 @@ iframe {
   flex-direction:row;
   flex:1;
   justify-content:center;
-  margin-right: 2.5%;
 }
 
 #rowlist > li {
@@ -242,6 +241,10 @@ iframe {
 
   h1 {
     padding-top: 10%;
+  }
+
+  #rowlist {
+    margin-right: 2.5%;
   }
 
   #band {
