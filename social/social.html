@@ -8,11 +8,13 @@
     <meta name="author" content="Cory Eheart"/>
     <meta name="keywords" content="Burning, Genesis, Band, Socials, Facebook, Instagram"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-control" content="no-cache">
     <link rel="stylesheet" href="../assets/css/styles.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania">
   </head>
     
   <body>
+    <script src="../assets/js/script.js"></script>
     <div class="container">
       <header role="banner" class="primary">
         <nav role="navigation" id="navigation">
@@ -31,7 +33,11 @@
         </section>
       </header>
       <section id="content">
-        
+        <ul id="buttonlist">
+          <li><button onClick="openFacebook()">Facebook</button></li>
+          <li><button onClick="openInsta()">Instagram</button></li>
+          <li><button onClick="openTwitter()">Twitter</button></li>
+        </ul>
       </section>
     </div>
   </body>

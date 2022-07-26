@@ -2,8 +2,6 @@ html {
   font-family:"Metal Mania";
   background-color: black;
   background-image: url("https://cory-eheart.github.io/hosted-assets/flames_background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a {
@@ -73,6 +71,7 @@ body {
   font-style: oblique;
   font-size: 150%;
   color: white;
+  margin-bottom: 1%;
 }
 
 h1 {
@@ -99,7 +98,7 @@ iframe {
 
 #band {
   height: auto;
-  width: 40%;
+  width: 80%;
 }
 
 #photolabel {
@@ -123,7 +122,8 @@ iframe {
   display:flex;
   flex-direction:row;
   flex:1;
-  justify-content:center;
+  justify-content:space-evenly;
+  margin-right: 2.5%;
 }
 
 #rowlist > li {
@@ -134,6 +134,33 @@ iframe {
   width: 33.25%;
   padding: 0px 0px;
   font-size: 20px;
+}
+
+#buttonlist {
+  margin-right: 2.5%;
+}
+
+#buttonlist > li{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+#buttonlist > li > button{
+  font-family: inherit;
+  font-size: 20px;
+  width: 20%;
+  height: 50px;
+  background-color: #CA0900;
+  border: 2px solid black;
+  transition: all .2s ease-in-out;
+}
+
+#buttonlist > li > button:hover{
+  text-decoration: underline;
+  font-size: 150%;
+  width: 25%;
+  height: 65px;
 }
 
 #album {
@@ -147,7 +174,7 @@ iframe {
 #footer {
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -161,9 +188,13 @@ iframe {
   font-size: 12px;
 }
 
-@media screen and (max-width: 1198px) {
+@media screen and (max-width: 768px) {
+  html {
+    background-size: 100% auto;
+  }
+
   nav {
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
   }
 
@@ -186,7 +217,7 @@ iframe {
   }
   
   #title {
-    margin-right: -3%;
+    margin-right: -1.5%;
     margin-top: 7.5%;
     text-align: center;
   }
@@ -215,6 +246,10 @@ iframe {
     width: 75%;
   }
   
+  #buttonlist > li > button{
+    min-width: 60%;
+  }
+  
   #thumbnail {
     margin-top: 10%;
   }
@@ -230,29 +265,7 @@ iframe {
   }
   
   #footer > h6 {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #nav {
-    font-size: 10px;
-  }
-
-  h1 {
-    padding-top: 10%;
-  }
-
-  #rowlist {
-    margin-right: 2.5%;
-  }
-
-  #band {
-    width: 95%;
-    height: auto;
-  }
-
-  #footer > h6 {
+    margin-left: 15%;
     font-size: 8px;
   }
 }
