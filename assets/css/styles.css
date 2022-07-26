@@ -244,6 +244,11 @@ iframe {
     width: 75%;
   }
 
+  #buttonlist > li {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
   #buttonlist > li > button {
     min-width: 50%;
   }
