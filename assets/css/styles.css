@@ -280,11 +280,14 @@ iframe {
     margin-right: 2.5%;
   }
 
+  #buttonlist > li > button {
+    color: black;
+  }
+
   #buttonlist > li > button:hover{
     width: 50%;
     height: 50px;
     text-decoration: none;
-    color: black;
     font-size: 20px;
   }
   
