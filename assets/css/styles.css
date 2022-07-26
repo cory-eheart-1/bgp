@@ -2,6 +2,8 @@ html {
   font-family:"Metal Mania";
   background-color: black;
   background-image: url("https://cory-eheart.github.io/hosted-assets/flames_background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -61,6 +63,7 @@ nav > ul {
 body {
   padding-top: 5%;
   padding-bottom: 6.65%;
+  padding-right: 1%;
   color: #eeeeee;
 }
 
@@ -71,7 +74,6 @@ body {
   font-style: oblique;
   font-size: 150%;
   color: white;
-  margin-bottom: 1%;
 }
 
 h1 {
@@ -98,7 +100,7 @@ iframe {
 
 #band {
   height: auto;
-  width: 80%;
+  width: 40%;
 }
 
 #photolabel {
@@ -122,8 +124,7 @@ iframe {
   display:flex;
   flex-direction:row;
   flex:1;
-  justify-content:space-evenly;
-  margin-right: 2.5%;
+  justify-content:center;
 }
 
 #rowlist > li {
@@ -137,6 +138,7 @@ iframe {
 }
 
 #buttonlist {
+  margin-top: 2.5%;
   margin-right: 2.5%;
 }
 
@@ -174,7 +176,7 @@ iframe {
 #footer {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -188,13 +190,9 @@ iframe {
   font-size: 12px;
 }
 
-@media screen and (max-width: 768px) {
-  html {
-    background-size: 100% auto;
-  }
-
+@media screen and (max-width: 1198px) {
   nav {
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
   }
 
@@ -217,7 +215,7 @@ iframe {
   }
   
   #title {
-    margin-right: -1.5%;
+    margin-right: -3%;
     margin-top: 7.5%;
     text-align: center;
   }
@@ -246,10 +244,6 @@ iframe {
     width: 75%;
   }
   
-  #buttonlist > li > button{
-    min-width: 60%;
-  }
-  
   #thumbnail {
     margin-top: 10%;
   }
@@ -265,7 +259,33 @@ iframe {
   }
   
   #footer > h6 {
-    margin-left: 15%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #nav {
+    font-size: 10px;
+  }
+
+  h1 {
+    padding-top: 10%;
+  }
+
+  #rowlist {
+    margin-right: 2.5%;
+  }
+
+  #buttonlist > li > button {
+    min-width: 50%;
+  }
+  
+  #band {
+    width: 95%;
+    height: auto;
+  }
+
+  #footer > h6 {
     font-size: 8px;
   }
 }
