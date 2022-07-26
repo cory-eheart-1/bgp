@@ -215,7 +215,7 @@ iframe {
   }
   
   #title {
-    margin-right: -3%;
+    margin-right: -1.5%;
     margin-top: 7.5%;
     text-align: center;
   }
@@ -242,6 +242,10 @@ iframe {
   #rowlist > li {
     margin: 5% 0px;
     width: 75%;
+  }
+
+  #buttonlist > li > button {
+    min-width: 50%;
   }
   
   #thumbnail {
@@ -274,10 +278,6 @@ iframe {
 
   #rowlist {
     margin-right: 2.5%;
-  }
-
-  #buttonlist > li > button {
-    min-width: 50%;
   }
   
   #band {
