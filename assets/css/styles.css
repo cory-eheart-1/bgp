@@ -238,7 +238,7 @@ iframe {
   margin: 0;
 }
 
-img {
+.slides > div > img {
   object-fit: cover;
   position: absolute;
   top: 0;
