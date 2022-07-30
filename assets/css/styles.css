@@ -332,11 +332,27 @@ iframe {
   #buttonlist > li > button {
     min-width: 50%;
   }
+
+  #buttonlist > li > p{
+    background: #CA0900;
+    padding: 1% 1%;
+    border: 2px solid black;
+    color: black;
+  }
   
   #thumbnail {
     margin-top: 10%;
   }
   
+  .slider {
+    width: 648px;
+  }
+
+  .slides > div {
+    width: 648px;
+    height: 436px;
+  }
+
   #footer {
     position: fixed;
     font-size: 10px;
@@ -379,6 +395,15 @@ iframe {
   #band {
     width: 95%;
     height: auto;
+  }
+
+  .slider {
+    width: 324px;
+  }
+
+  .slides > div {
+    width: 324px;
+    height: 220px;
   }
 
   #footer > h6 {
