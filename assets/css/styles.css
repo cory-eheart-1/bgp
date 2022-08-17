@@ -113,6 +113,12 @@ iframe {
   width: 75%;
 }
 
+#studios {
+  width: 75%;
+  height: auto;
+  margin: 1% auto;
+}
+
 #content {
   display:flex;
   flex-direction:column;
