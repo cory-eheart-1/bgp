@@ -130,7 +130,7 @@ iframe {
   display:flex;
   flex-direction:row;
   flex:1;
-  justify-content:center;
+  justify-content:space-around;
 }
 
 #rowlist > li {
