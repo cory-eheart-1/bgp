@@ -10,9 +10,13 @@ function openTwitter(){
   window.open("https://twitter.com/burning_genesis", "_blank");
 }
 
-function openSpotify(){   window.open("https://open.spotify.com/artist/51b0iJaeN11hl1LU8oUFML?si=k6Qm6n6KTuyWUZ7_jHvmNg");
+function openSpotify(){   window.open("https://open.spotify.com/album/4WY1MYFLytpva8LcUFHY9A");
 }
 
 function openApple(){
-  window.open("https://music.apple.com/us/artist/burning-genesis/1609642313");
+  window.open("https://music.apple.com/us/album/my-o-p-i-c/1641395826");
+}
+
+function openYoutube(){
+  window.open("https://www.youtube.com/watch?v=TvcaGBn9DDU&list=OLAK5uy_lRZEAA3gc7vOUQB6mhSs5dCs9Oi0rt4sQ");
 }
