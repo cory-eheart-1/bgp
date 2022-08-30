@@ -13,6 +13,7 @@
   </head>
     
   <body>
+    <script src="../assets/js/script.js"></script>
     <div class="container">
       <header role="banner" class="primary">
         <nav role="navigation" id="navigation">
@@ -32,11 +33,15 @@
         </section>
       </header>
       <section id="content">
+
         <ul id="buttonlist">
-          <li><button onClick="openSpotify()">Spotify</button></li>
-          <li><button onClick="openApple()">Apple Music</button></li>
-          <li><button onClick="openYoutube()">YouTube</button></li>
-          <li><p>Our releases are also available on iTunes, Amazon Music, YouTube Music, Pandora, iHeartRadio, and all major social media platforms that feature music!</p></li>
+          <li><button onClick="openLink('Spotify')">Spotify</button></li>
+          <li><button onClick="openLink('Apple')">Apple Music</button></li>
+          <li><button onClick="openLink('iTunes')">iTunes</button></li>
+          <li><button onClick="openLink('YouTube')">YouTube</button></li>
+          <li><button onClick="openLink('YTMusic')">YouTube Music</button></li>
+          <li><button onClick="openLink('Amazon')">Amazon Music</button></li>
+          <li><p>Our releases are also available on Pandora, iHeartRadio, and all major social media platforms that feature music!</p></li>
         </ul>
       </section>
     </div>
