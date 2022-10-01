@@ -78,6 +78,7 @@ body {
   font-style: oblique;
   font-size: 150%;
   color: white;
+  margin-left: 2%;
 }
 
 h1 {
@@ -201,6 +202,11 @@ iframe {
   font-size: 150%;
   width: 75%;
   height: 50px;
+}
+
+#collage {
+  width: 75%;
+  height: auto;
 }
 
 #album {
