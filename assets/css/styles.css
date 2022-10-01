@@ -36,6 +36,10 @@ a:active {
   text-decoration:underline;
 }
 
+p > a {
+  color: #CA0900;
+}
+
 i {
   font-weight:bold;
   color: #CFC5E8;
@@ -164,18 +168,39 @@ iframe {
   transition: all .2s ease-in-out;
 }
 
-#buttonlist > li > p{
-  background: #CA0900;
-  padding: 1% 1%;
-  border: 2px solid black;
-  color: black;
-}
-
 #buttonlist > li > button:hover{
   text-decoration: underline;
   font-size: 150%;
   width: 25%;
   height: 65px;
+}
+
+#eventList {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin-right: 4%;
+}
+
+#eventItem > li > p {
+  font-size: 130%;
+}
+
+#eventItem > li > button {
+  font-family: inherit;
+  font-size: 20px;
+  width: 70%;
+  height: 50px;
+  background-color: #CA0900;
+  border: 2px solid black;
+  transition: all .2s ease-in-out;
+}
+
+#eventItem > li > button:hover{
+  text-decoration: underline;
+  font-size: 150%;
+  width: 75%;
+  height: 50px;
 }
 
 #album {
@@ -344,6 +369,13 @@ iframe {
 
   #buttonlist > li > button {
     min-width: 50%;
+  }
+
+  #buttonlist > li > p{
+    background: #CA0900;
+    padding: 1% 1%;
+    border: 2px solid black;
+    color: black;
   }
   
   #thumbnail {
