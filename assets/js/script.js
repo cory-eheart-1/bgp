@@ -26,5 +26,8 @@ function openLink(id) {
   else if (id == 'Amazon') {
     window.open("https://music.amazon.com/artists/B09SF8LGZ6/burning-genesis");
   }
+  else if (id == 'Events') {
+    window.open("https://burning-genesis.square.site/events");
+  }
   
 }
