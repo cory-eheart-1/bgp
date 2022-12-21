@@ -27,15 +27,6 @@ nav > ul > li > a:hover {
   font-size: 130%;
 }
 
-nav > ul > li > a.active {
-  background-color: black;
-  color: #CA0900;
-}
-
-a:active {
-  text-decoration:underline;
-}
-
 p > a {
   color: #CA0900;
 }
@@ -396,6 +387,9 @@ iframe {
     width: 648px;
     height: 436px;
   }
+  .slides > div > img {
+    width: 99.5%;
+  }
 
   #footer {
     position: fixed;
@@ -448,6 +442,11 @@ iframe {
   .slides > div {
     width: 324px;
     height: 220px;
+  }
+  
+  .slides > div > img {
+    width: 99%;
+    height: 99%;
   }
 
   #footer > h6 {
