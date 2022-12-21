@@ -126,14 +126,14 @@ iframe {
   display:flex;
   flex-direction:row;
   flex:1;
-  justify-content:space-around;
+  justify-content:space-evenly;
 }
 
 #rowlist > li {
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:start;
+  justify-content:center;
   width: 33.25%;
   padding: 0px 0px;
   font-size: 20px;
